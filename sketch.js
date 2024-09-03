@@ -4,7 +4,7 @@ let y = 500
 let furby
 
 function preload(){
-furby = loadImage('furby.png')
+  furby = loadImage('furby.png')
 }
 
 function setup() {
@@ -16,6 +16,7 @@ function setup() {
 
  
 function draw() {
+
   //mouseIsPressed
   if(keyIsPressed == true){
     x = 100
@@ -26,7 +27,7 @@ function draw() {
        x=600
      }
  
-
+   
   image(furby, windowWidth/2, windowHeight/2)
   strokeWeight(30)
   //point(300, 200)
